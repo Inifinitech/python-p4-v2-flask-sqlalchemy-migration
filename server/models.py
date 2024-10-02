@@ -28,6 +28,6 @@ class Department(db.Model):
     address = db.Column(db.String)
 
     def __repr__(self):
-        return f"<Department {self.id}, {self.name}, {self.location}"
+        return f"<Department {self.id}, {self.name}, {self.address}"
 
 
